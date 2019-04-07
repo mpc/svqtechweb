@@ -1,0 +1,32 @@
+title = "SVQTech"
+baseURL = "https://localhost:1313/"
+languageCode = "es-ES"
+theme = "gohugo-theme-ananke"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "es"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  description = "La web de la comunidad tecnológica de Sevilla."
+  facebook = ""
+  twitter = "https://twitter.com/search?q=%23svqtech"
+  instagram = ""
+  youtube = ""
+  github = ""
+  gitlab = ""
+  linkedin = ""
+  mastodon = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-green"
+  featured_image = "/images/svqtechPortada.jpg"
+  recent_posts_number = 2
